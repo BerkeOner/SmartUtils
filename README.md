@@ -8,6 +8,7 @@ SmartUtils is a lightweight Unity utility library that simplifies and accelerate
 
 * **TransformExtensions**: Easily manipulate individual axes of a Transform (Position, LocalPosition, Rotation, LocalRotation, Scale) using intuitive `.x`, `.y`, `.z` properties and full Quaternion access for rotations.
 * **SDebug**: Smart debug logging that is automatically excluded from builds, keeping your game clean and optimized while still allowing logs in the editor.
+* More helper utilities will be added over time.
 
 ## TransformExtensions
 
@@ -24,12 +25,10 @@ transform.position = pos;
 **New way with SmartUtils:**
 
 ```csharp
-transform.Position().y = 0f;          // World Y
-transform.LocalPosition().x += 2f;    // Local X
-transform.Rotation().euler.z = 90f;   // World rotation Z
-transform.Rotation().quat = Quaternion.Euler(0,180,0); // World rotation quaternion
-transform.Scale().x *= 1.5f;          // Local scale X
+transform.Position().y = 0f;
 ```
+
+Works for Position, LocalPosition, Rotation, LocalRotation and LocalScale. LossyScale is not included since its read only.
 
 ## SDebug
 
