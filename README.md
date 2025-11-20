@@ -8,7 +8,7 @@ SmartUtils is a lightweight Unity utility library that simplifies and accelerate
 
 ## TransformExtensions
 
-Easily manipulate individual axes of a Transform (Position, LocalPosition, Rotation, LocalRotation, Scale) using intuitive `.x`, `.y`, `.z` properties and full Quaternion access for rotations. Easily modify Transforms with concise syntax:
+Easily manipulate individual axes of a Transform (Position, LocalPosition, Rotation, LocalRotation, Scale) using intuitive `.x`, `.y`, `.z` properties and full eulerAngles access for rotations. Easily modify Transforms with concise syntax:
 
 **Old way:**
 
