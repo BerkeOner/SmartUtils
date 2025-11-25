@@ -17,7 +17,7 @@ using UnityEngine;
         transform.position = targetPosition;
 
     New way (using SmartUtils):
-        transform.Position.y = 0f;
+        transform.Position().y = 0f;
 */
 
 namespace SmartUtils
@@ -141,3 +141,4 @@ namespace SmartUtils
         }
     }
 }
+
