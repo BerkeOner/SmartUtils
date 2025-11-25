@@ -1,8 +1,8 @@
-using UnityEngine;
-
 // Using SDebug.Log instead of Debug.Log will exclude your logs from build so it can run faster.
 // Be aware logs still can be useful in builds since they are used to fix bug reports by players.
 // Main advantage of SDebug is excluding unnecessary logs from build to save performance.
+
+using UnityEngine;
 
 namespace SmartUtils
 {
@@ -42,3 +42,4 @@ namespace SmartUtils
         }
     }
 }
+
