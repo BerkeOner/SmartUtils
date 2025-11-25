@@ -1,5 +1,3 @@
-using UnityEngine;
-
 /*
     SmartUtils.TransformExtensions
 
@@ -19,6 +17,8 @@ using UnityEngine;
     New way (using SmartUtils):
         transform.Position().y = 0f;
 */
+
+using UnityEngine;
 
 namespace SmartUtils
 {
@@ -141,4 +141,5 @@ namespace SmartUtils
         }
     }
 }
+
 
