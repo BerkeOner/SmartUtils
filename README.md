@@ -1,10 +1,6 @@
 # SmartUtils
 
-Contains Unity functions that are designed entirely to save you time.
-
-## Overview
-
-SmartUtils is a lightweight Unity utility library that simplifies and accelerates common tasks, helping you write cleaner and more efficient code. More helper utilities will be added over time.
+Contains Unity functions that are designed entirely to save you time. it simplifies and accelerates common tasks, helping you write cleaner and more efficient code. More helper utilities will be added over time.
 
 ## TransformExtensions
 
