@@ -55,6 +55,10 @@ StartCoroutine(DelayIt.LateStartWithCondition(readyToStart, seconds: 2f, () => I
 StartCoroutine(DelayIt.LateStartWithCondition(frames: 60, readyToStart, () => Init())); // Wait for frames and then condition
 ```
 
+# Extra (not included)
+
+This great lerping functions would fit well with these utils as well: https://github.com/brihernandez/SmoothDampingExample/blob/master/Assets/SmoothdampExample/Scripts/SmoothDamp.cs
+
 ## License
 
 This project is open-source and free to use under the MIT License.
