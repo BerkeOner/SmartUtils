@@ -36,7 +36,7 @@ SDebug.LogWarning("Warning only in editor");
 SDebug.LogError("Error only in editor");
 ```
 
-# SmartUtils.DelayIt
+# DelayIt
 
 **SmartUtils.DelayIt** is a lightweight utility library for Unity that provides simple coroutine-based methods to delay execution or wait for conditions before performing an action. I designed it completely to simplify the code part of our projects.
 
