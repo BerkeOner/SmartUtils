@@ -51,7 +51,7 @@ It is a lightweight utility library for Unity that provides simple coroutine bas
 ```csharp
 StartCoroutine(DelayIt.LateStart(seconds: 2f, () => DoSomething())); // Delay by seconds
 StartCoroutine(DelayIt.LateStart(frames: 60, () => DoSomething())); // Delay by frames
-StartCoroutine(DelayIt.LateStartWithCondition(readyToStart, seconds: 2f, () => Init())); // Wait for a condition and delay by frames
+StartCoroutine(DelayIt.LateStartWithCondition(readyToStart, seconds: 2f, () => Init())); // Wait for a condition first, then frames
 StartCoroutine(DelayIt.LateStartWithCondition(frames: 60, readyToStart, () => Init())); // Wait for frames and then condition
 ```
 
