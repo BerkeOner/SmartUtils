@@ -17,10 +17,10 @@ transform.position = pos;
 **New way with SmartUtils:**
 
 ```csharp
-transform.Position().y = 0f;
+transform.Position().y = 0f; // You can use other operators as well such as +=, /=, etc.
 ```
 
-Works for Position, LocalPosition, Rotation, LocalRotation and LocalScale. LossyScale is not included since its read only.
+Works for Position, LocalPosition, Rotation, LocalRotation and LocalScale.
 
 ## SDebug
 
