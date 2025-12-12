@@ -53,7 +53,7 @@ StartCoroutine(DelayIt.LateStartWithCondition(frames: 60, readyToStart, () => In
 
 # Extra (not included)
 
-This great lerping functions would fit well with these utils as well: https://github.com/brihernandez/SmoothDampingExample/blob/master/Assets/SmoothdampExample/Scripts/SmoothDamp.cs
+These great lerping functions would fit well with these utils as well: https://github.com/brihernandez/SmoothDampingExample/blob/master/Assets/SmoothdampExample/Scripts/SmoothDamp.cs
 
 ## License
 
